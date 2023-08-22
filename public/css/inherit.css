@@ -1,0 +1,121 @@
+#kt_body .header{
+    text-align: center;
+    width: 100%;
+    padding: 16px 0px 16px;
+    border-bottom: 1px solid #383A3C;
+    background: #000;
+    height: auto;
+    /* border-bottom: 1px solid #eff2f5; */
+}
+.headerlogout{
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 13px;
+    color: #fff;
+    margin: 0px 0px 0px;
+}
+.logooo{
+    display: inline-block;
+    width: 120px;
+}
+.sidebarotthers{
+    background: #000;
+    width: 280px;
+    min-height: 350px;
+    padding: 20px 17px 0px;
+    border-radius: 8px;
+    margin: 30px 0px 0px;
+}
+#kt_content{
+    width: calc(100% - 280px);
+    height: 100vh;
+    /* display: grid; */
+    padding: 0;
+    overflow: auto;
+}
+.sidebarotthers nav{
+    width: 100%;
+
+}
+.sidebarotthers nav ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.sidebarotthers nav ul li{
+    width: 100%;
+    margin: 0px 0px 4px;
+}
+.sidebarotthers nav ul li a{
+    color: #fff;
+    font-size: 13px;
+    border-radius: 18px;
+    font-weight: 400;
+    padding: 8px 14px;
+    text-decoration: none;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+    display: block;
+}
+.sidebarotthers ul li a img {
+    margin-right: 8px;
+}
+.sidebarotthers nav ul li.active a {
+    background: #27282A;
+}
+.btn.btn-active-color-primary:hover:not(.btn-active), .btn.btn-active-color-primary:hover:not(.btn-active) .svg-icon svg [fill]:not(.permanent):not(g){
+    color: #d9261c;
+    fill: #d9261c;
+}
+.symbol .symbol-label{
+    background-color: transparent;
+    overflow: hidden;
+  }
+  .symbol .symbol-label img{
+    height: 100%;
+    object-fit: contain;
+    width: 100%;
+  }
+  
+@keyframes load {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+.loader2{
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    height: 100vh;
+    z-index: 9999;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 100%;
+    z-index: 1111111;
+}
+   
+.loading_inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+   
+.loading {
+    width: 60px;
+    height: 60px;
+    border: 5px solid #E1E1E1;
+    border-top: 5px solid #000;
+    border-radius: 60px;
+    animation: load 1s linear infinite;
+}
+   
